@@ -1,0 +1,12 @@
+main.m                 主程序
+prolpc.m               线性预测编码核心程序
+write2lpc.m            将得出的线性预测系数以ASCII码的形式保存在lpctxt文件夹下
+evaluate.m             对生成的语音进行客观评价，画出波形图和语谱图
+draw_spectrogram.m     画语谱图
+run2.pl                用SPTK工具重新生成语音的perl脚本
+sptk3.1                SPTK工具
+wav                    原始语音
+pitch                  基频文件
+lpc                    SPTK识别的线性预测系数文件
+lpctxt                 你计算得出的线性预测系数文件（ASCII）
+lpcWav                 用SPTK工具通过线性预测编码合成的语音              
